@@ -1,0 +1,7 @@
+#define NONE "NONE"
+#define RIGHT "RIGHT"
+#define LEFT "LEFT"
+#define FORWARD "FORWARD"
+#define BACKWARD "BACKWARD"
+#define UP "UP"
+#define DOWN "DOWN"
