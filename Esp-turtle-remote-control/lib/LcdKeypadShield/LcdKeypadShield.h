@@ -64,4 +64,7 @@ public:
     /*Automatically adjust button values using the user menu.
     The method helps a lot if you need to constantly change the shield or if you need quick setup*/
     void userButtonsAutoCorrect();
+
+    /*Clear display before print*/
+    size_t printNew(const char *str);
 };

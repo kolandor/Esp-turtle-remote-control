@@ -148,3 +148,9 @@ void LcdKeypadShield::reqSetBtnValue(const char * reqText, Button btn)
         delay(100);
     }
 }
+
+size_t LcdKeypadShield::printNew(const char *str)
+{
+    clear();
+    return print(str);
+}
